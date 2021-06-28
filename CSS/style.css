@@ -311,10 +311,36 @@ padding-bottom: 94px;
 }
 
 .prof{
+    margin-bottom: 16px;
     color: var(--indent-color); 
 }
 
+.list-icon{
+    display: flex;
+    justify-content: center;
+}
 
+.item-icon:not(:last-child){
+    margin-right: 10px;
+}
+
+.link-icon{
+    display: block;
+    padding: 12px;
+    color: #AFB1B8;
+}
+
+.soc-icon {
+    display: block;
+    fill: currentColor;
+}
+
+.link-icon:hover,
+.link-icon:focus{
+    color: var(--page-color);
+    background-color: var(--style-color);
+    border-radius: 50%;
+}
 
 /* Стилі Портфоліо */
 
