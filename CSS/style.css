@@ -330,17 +330,10 @@ padding-bottom: 94px;
 }
 
 .link-icon{
-    display: block;
+    display: flex;
     padding: 12px;
-    color: var(--logo-icon-color);
+    fill: var(--logo-icon-color);
 }
-
-.logo-icon {
-    display: block;
-    fill: currentColor;
-}
-
-
 
 
 /* Стилі секції Постійні клієнти */
@@ -352,16 +345,16 @@ padding-bottom: 94px;
 }
 
 .logo-link {
-    display: block;
+    display: flex;
     padding: 15px 31px;
-    color: var(--logo-icon-color);
+    fill: var(--logo-icon-color);
     border: 1px solid var(--logo-icon-color);
     border-radius: 4px;
 }
 
 .logo-link:hover,
 .logo-link:focus {
-    color: var(--style-color);
+    fill: var(--style-color);
     border-color: var(--style-color);
 }
 
@@ -519,7 +512,7 @@ margin-right: 70px;
 
 
 .footer-par{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: var(--page-color); 
     font-weight: 700;
     line-height: 1.14;
@@ -527,14 +520,14 @@ margin-right: 70px;
 }
 
 .link-icon.lower{
-    color: var(--page-color);
+    fill: var(--page-color);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
 
 .link-icon:hover,
 .link-icon:focus {
-    color: var(--page-color);
+    fill: var(--page-color);
     background-color: var(--style-color);
     border-radius: 50%;
 }
